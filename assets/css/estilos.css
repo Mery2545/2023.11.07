@@ -1,0 +1,103 @@
+body{
+     font-family: sans-serif;
+     padding: 10px;
+     margin: 100px;
+     border: #B0C4DE;
+    background-image: url(https://previews.123rf.com/images/yurephoto/yurephoto1302/yurephoto130200028/17967854-seamless-tileable-para-fondos-de-pantalla-alta-resoluci%C3%B3n-colores-claros-patr%C3%B3n-fractal-flor.jpg);
+}
+
+.header{
+           margin-bottom: 3px;
+           margin-top: 0;
+           
+          }
+
+.header hr{
+           margin-top: 0;
+           margin-bottom: 0;
+           left: auto;
+          }
+
+h1{  text-align: center;
+     font-family: "Pacifico", cursive;
+     font-weight: 400;
+      font-style: normal;
+      font-size: 40px;
+      color: rgb(42, 24, 126);
+     }
+
+h2{text-align: center;
+     font-family: "Seis mayúsculas", sans-serif;
+     font-family: "Bangers", system-ui;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 40px;
+}
+
+.biografiadelautor{ 
+                    width: 78%;
+                    display: inline-block;
+                    font-size: 14px;
+                     line-height: 1.6;
+                    }
+
+
+.summary{
+         display: inline-flex;
+         vertical-align: top;
+         width: 20%;
+         margin-top: 15px;
+         flex-direction: row-reverse;
+         box-shadow: 10px 10px 10px #585353;
+}
+.caja{
+
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+
+}
+img{
+     display: block;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+}
+image{
+     width: 50%;
+     float:center;
+     
+}
+
+.summary-table{
+     
+     border: 1px solid #a2a9b1;
+                background-color: #f8f9fa;
+                padding: 1px;
+                font-size: 14px;
+}
+
+.summary-table thead th{background-color: #B0C4DE;
+                        padding-top: 3px;
+                        padding-bottom: 3px;}
+
+.summary-table tbody tr:first-child { text-align: center;} 
+
+table{
+     margin-left: 100%;
+     border: 4px solid;
+     margin: auto;
+}
+
+table tr td,th{border: 1px solid black;
+     font-family: "Niconne", cursive;
+  font-weight: 600;
+  font-style: normal;
+
+     font-size: 30px;}
+p{
+     font-size: 40px;
+     font-family: "Niconne", cursive;
+     font-weight: 400;
+     font-style: normal;
+}
